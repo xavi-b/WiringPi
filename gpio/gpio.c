@@ -541,7 +541,7 @@ void doExport (int argc, char *argv [])
  *********************************************************************************
  */
 
-static void wfi (int)
+static void wfi (int pin)
   { exit (0) ; }
 
 void doWfi (int argc, char *argv [])
